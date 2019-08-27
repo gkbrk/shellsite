@@ -1,0 +1,10 @@
+#!/bin/sh
+
+pandoc -f commonmark -t html5 <<EOF
+# Test page
+
+Content
+
+* List 1
+* List 2
+EOF

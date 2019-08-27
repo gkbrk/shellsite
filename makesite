@@ -1,0 +1,11 @@
+#!/bin/sh
+
+. ./builder.sh
+. ./config.sh
+
+# Set up routes
+
+process_folder 'posts'
+process_file './pages/about' 'about.html'
+process_file './pages/home' 'index.html'
+process_file './pages/posts' 'posts/index.html'

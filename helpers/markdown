@@ -1,0 +1,2 @@
+#!/bin/sh
+cat $1 | grep -v '^#_ ' | tail -n +2 | pandoc -f commonmark -t html5

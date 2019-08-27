@@ -1,0 +1,10 @@
+#!/bin/sh
+
+function menu_item () {
+    echo "<a href='$2'>$1</a> - "
+}
+
+menu_item 'Home' '/'
+menu_item 'Blog' '/posts'
+menu_item 'About' '/about'
+menu_item 'Famous lel page' '/lel'
